@@ -254,8 +254,8 @@
            &kp Q        &kp W   &kp E         &kp R               &kp T          &kp Y      &kp U                          &kp I      &kp O    &kp P
 &kp EQUAL  &kp A        &kp S   &kp D         &kp F               &kp G          &kp H      &kp J                          &kp K      &kp L    &kp SEMI   &kp SQT
 &kp MINUS  &mt GLOBE Z  &kp X   &kp C         &kp V               &kp B          &kp N      &kp M                          &kp COMMA  &kp DOT  &kp SLASH  &kp GRAVE
-                                &lt FUNC ESC  &lt 2 LEFT_BRACKET  &lt 1 SPACE    &lt 3 SQT  &mt RIGHT_SHIFT RIGHT_BRACKET  &lt 4 DEL
-&kp LEFT   &kp DOWN     &kp UP  &kp RIGHT     &none                                                                                   &none
+                                &lt 4 ESC  &lt 2 LEFT_BRACKET  &lt 1 SPACE    &lt 3 SQT  &mt RIGHT_SHIFT RIGHT_BRACKET  &lt 4 DEL
+&kp LEFT   &kp DOWN     &kp UP  &kp RIGHT     &kp ESC                                                                                   &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -276,7 +276,7 @@
            &kp DOT    &kp N7  &kp N8  &kp N9      &kp COLON    &trans  &trans            &trans     &trans    &trans
 &kp LCTRL  &kp MINUS  &kp N4  &kp N5  &kp N6      &kp SLASH    &trans  &sk RGUI          &sk LSHFT  &sk RALT  &sk RCTRL  &none
 &kp LSHFT  &kp PLUS   &kp N1  &kp N2  &kp N3      &kp ASTRK    &trans  &trans            &trans     &trans    &trans     &none
-                              &trans  &lt NAV N0  &kp COMMA    &trans  &lt SYM K_CANCEL  &trans
+                              &trans  &lt 2 N0  &kp COMMA    &trans  &lt 3 K_CANCEL  &trans
 &trans     &trans     &trans  &trans  &trans                                                        &trans
             >;
         };
