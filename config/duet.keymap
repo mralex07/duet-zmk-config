@@ -61,7 +61,7 @@
             bindings = <&kp ESCAPE>;
             require-prior-idle-ms = <200>; // Followind urob's formula for my 52 relaxed WPM: 10500/52 wpm ≅ 200 ms
             timeout-ms = <30>;
-            layers = <DEF>;
+            layers = <0>;
             key-positions = <0 11>;
         };
 
