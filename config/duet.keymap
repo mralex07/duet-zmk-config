@@ -202,7 +202,7 @@
         smart_mouse: smart_mouse {
             compatible = "zmk,behavior-tri-state"; // requires tri-state (PR #1366)
             #binding-cells = <0>;
-            bindings = <&tog MOU>, <&none>, <&tog MOU>;
+            bindings = <&tog 5>, <&none>, <&tog 5>;
 
             ignored-layers = <5>;
             ignored-key-positions = <
