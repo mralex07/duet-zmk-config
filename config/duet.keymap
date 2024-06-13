@@ -62,7 +62,7 @@
             require-prior-idle-ms = <200>; // Followind urob's formula for my 52 relaxed WPM: 10500/52 wpm ≅ 200 ms
             timeout-ms = <30>;
             layers = <DEF>;
-            key-positions = <0 10>;
+            key-positions = <0 11>;
         };
 
         left_hand_tab_combo {
@@ -70,7 +70,7 @@
             require-prior-idle-ms = <200>;
             timeout-ms = <30>;
             layers = <DEF>;
-            key-positions = <1 11>;
+            key-positions = <1 12>;
         };
 
         left_hand_backspace_combo {
@@ -78,7 +78,7 @@
             require-prior-idle-ms = <200>;
             timeout-ms = <30>;
             layers = <DEF NAV>;
-            key-positions = <2 12>;
+            key-positions = <2 13>;
         };
 
         left_hand_enter_combo {
@@ -86,7 +86,7 @@
             require-prior-idle-ms = <200>;
             timeout-ms = <30>;
             layers = <DEF NAV>;
-            key-positions = <3 13>;
+            key-positions = <3 14>;
         };
 
         left_hand_del_combo {
@@ -94,31 +94,25 @@
             require-prior-idle-ms = <200>;
             timeout-ms = <30>;
             layers = <DEF>;
-            key-positions = <4 14>;
+            key-positions = <4 15>;
         };
 
         // Special layer toggles
 
-        nav_media_mute_combo {
-            key-positions = <4 14>;
-            layers = <NAV>;
-            bindings = <&kp C_MUTE>;
-        };
-
         switch_lang {
-            key-positions = <30 31>;
+            key-positions = <35 36>;
             layers = <DEF NAV>;
             bindings = <&kp LC(SPACE)>;
         };
 
         enter {
-            key-positions = <32 33>;
+            key-positions = <37 38>;
             layers = <DEF NWD>;
             bindings = <&kp ENTER>;
         };
 
         activate_smart_mouse_layer_combo {
-            key-positions = <26 27 28>;
+            key-positions = <30 31 29>;
             layers = <DEF>;
             bindings = <&smart_mouse>;
         };
@@ -140,7 +134,7 @@
         };
 
         sys_toggle_bt1_connection {
-            key-positions = <13 14>;
+            key-positions = <14 15>;
             layers = <1>;
             bindings = <&bt BT_SEL 1>;
             timeout-ms = <30>;
@@ -148,7 +142,7 @@
         };
 
         sys_toggle_bt2_connection {
-            key-positions = <23 24>;
+            key-positions = <27 26>;
             layers = <1>;
             bindings = <&bt BT_SEL 2>;
             timeout-ms = <30>;
@@ -165,30 +159,6 @@
 
         // Anachronic inspired combos to avoid problems SYM keys in quick succession when the corresponding key is pressed quickly before the layer key (https://github.com/theol0403/anachron-zmk-config)
         // I guess this is more of a problem when using mod-taps on thumbs, which is not my case
-
-        anachronic_tilde {
-            key-positions = <4 33>;
-            layers = <DEF>;
-            bindings = <&kp TILDE>;
-        };
-
-        anachronic_circumflex {
-            key-positions = <5 33>;
-            layers = <DEF>;
-            bindings = <&kp CARET>;
-        };
-
-        anachronic_grave {
-            key-positions = <9 33>;
-            layers = <DEF>;
-            bindings = <&kp GRAVE>;
-        };
-
-        anachronic_hyphen {
-            key-positions = <10 33>;
-            layers = <DEF>;
-            bindings = <&kp MINUS>;
-        };
     };
 
     behaviors {
