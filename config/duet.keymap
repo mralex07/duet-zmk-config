@@ -239,11 +239,7 @@
         colon: colon {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_tap>,
-                <&kp LC(SPACE) &kp COLON>,
-                <&macro_release>,
-                <&kp LC(SPACE)>;
+            bindings = <&macro_tap>, <&kp LC(SPACE) &kp COLON &kp LC(SPACE)>;
 
             label = "COLON";
         };
