@@ -235,6 +235,18 @@
                 <&macro_release>,
                 <&mo MACRO_PLACEHOLDER>;
         };
+
+        colon: colon {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp LC(SPACE) &kp COLON>,
+                <&macro_release>,
+                <&kp LC(SPACE)>;
+
+            label = "COLON";
+        };
     };
 
     conditional_layers {
@@ -284,7 +296,7 @@
         SYM {
             bindings = <
            &kp ESC    &kp LBRC   &kp LBKT   &kp LPAR   &kp TILDE            &kp CARET    &kp RPAR  &kp RBKT   &kp RBRC   &kp GRAVE
-&kp LCTRL  &kp MINUS  &kp ASTRK  &kp EQUAL  &kp UNDER  &kp DLLR             &kp HASH     &sk RGUI  &sk LSHFT  &sk RALT   &kp COLON  &none
+&kp LCTRL  &kp MINUS  &kp ASTRK  &kp EQUAL  &kp UNDER  &kp DLLR             &kp HASH     &sk RGUI  &sk LSHFT  &sk RALT   &colon     &none
 &kp LSHFT  &kp PLUS   &kp PIPE   &kp AT     &kp FSLH   &kp PRCNT            &kp LA(N6)   &kp BSLH  &kp AMPS   &kp QMARK  &kp EXCL   &none
                                  &trans     &trans     &kp LC(LG(SPACE))    &numword_td  &trans    &trans
 &trans     &trans     &trans     &trans     &trans                                                            &trans
