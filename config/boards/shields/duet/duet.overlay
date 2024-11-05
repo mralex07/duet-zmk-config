@@ -3,7 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  */
-#include "duet.dtsi"
+#include "duet-layouts.dtsi"
 
 
 
