@@ -35,6 +35,7 @@
 };
 
 / {
+    chosen { zmk,physical-layout = &default_layout; };
     behaviors {
         hsl: homerow_shift_l {
             compatible = "zmk,behavior-hold-tap";
