@@ -6,8 +6,11 @@ manifest:
       url-base: https://github.com/petejohanson
   projects:
     - name: zmk
+      remote: urob
+      revision: main
+      import: app/west.yml 
+    - name: zmk
       remote: petejohanson
       revision: studio/keymap-subsystem
-      import: app/west.yml
   self:
     path: config
