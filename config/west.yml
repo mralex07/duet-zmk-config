@@ -1,15 +1,15 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/mralex07/zmk
-    - name: urob
-      url-base: https://github.com/urob
+      url-base: https://github.com/zmkfirmware
+ #   - name: urob
+ #     url-base: https://github.com/urob
     - name: petejohanson
-      url-base: https://github.com/petejohanson
+      url-base: https://github.com/mralex07
   projects:
     - name: zmk
-      remote: petejohanson
-      revision: studio/keymap-subsystem
+      remote: mralex07
+      revision: main
       import: app/west.yml
   self:
     path: config
