@@ -4,7 +4,7 @@ manifest:
       url-base: https://github.com/zmkfirmware
  #   - name: urob
  #     url-base: https://github.com/urob
-    - name: petejohanson
+    - name: mralex07
       url-base: https://github.com/mralex07
   projects:
     - name: zmk
