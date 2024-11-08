@@ -1,6 +1,6 @@
 manifest:
   remotes:
-    - name: zmk
+    - name: urob
       url-base: https://github.com/urob
     - name: petejohanson
       url-base: https://github.com/petejohanson
